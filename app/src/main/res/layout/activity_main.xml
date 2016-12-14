@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewDisplaySectrum"
+        android:layout_width="512px"
+        android:layout_height="300px"
+        android:layout_marginTop="600px"
+        android:layout_marginLeft="100px"/>
+    <com.test.MyImageView
+        android:id="@+id/imageViewScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="100px" />
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvPitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEXT VIEW"/>
+</LinearLayout>
